@@ -1,39 +1,39 @@
 # Site
-repository: sproogen/resume-theme
+repository: poirm29/poirm29.github.io
 favicon: images/favicon.ico
 
 # Content configuration version
 version: 2
 
 # Personal info
-name: Brett Harris
-title: Senior Network System Administrator
-email: brett.h@email.co.uk
-website: www.github.com/sproogen/resume-theme
+name: 박근영
+title: 클라우드 엔지니어
+email: poirm29@gmail.com
+website: https://techkko.tistory.com/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username:  sproogen
+# twitter_username: facespics
+github_username:  poirm29
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
 # facebook_username: jekyll
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+# instagram_username: jameswgrant
+linkedin_username: park-geunyoung
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
 # Additional icon links
-additional_links:
-- title: itsgoingto.be
-  icon: fas fa-globe
-  url: https://www.itsgoingto.be
+# additional_links:
+# - title: itsgoingto.be
+#   icon: fas fa-globe
+#   url: https://www.itsgoingto.be
 # - title: another link
 #   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
 #   url: Link url (eg. https://google.com)
@@ -48,11 +48,42 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
-
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  AWS, Azure, NCP 등 다양한 클라우드 플랫폼에서 인프라 운영 및 구축 업무를 수행해온 8년차 클라우드 엔지니어 입니다.
+  11개의 EKS 멀티클러스터 환경으로 구성된 고객포털 서비스의 인프라 운영, EKS 구축 표준 설계, 운영 고도화 및 자동화 등의 업무를 수행 해왔습니다.
+  
+  Cisco, Fortinet, Juniper 등 하드웨어 네트워크/보안 장비를 다루었던 필드엔지니어로 지냈던 경험이 있으며
+  하이브리드 클라우드 환경의 VPN, 전용선, 라우팅, 방화벽 의 운영 및 트러블슈팅에 능숙합니다. 
+  클라우드 Managed Service 뿐만 아니라 전용선 구간 네트워크 장비(Extreme Switch) 나 방화벽(SRX, Vyatta) 장비를 운영하기도 했습니다.
+  
+  최근에는 EKS 환경 운영 및 구축, CI/CD 파이프라인 고도화 등의 프로젝트를 수행했으며 팀의 DevOps 역량 강화를 위한 교육 및 내부 프로젝트를 리딩하고 있습니다.
+  
 
 content:
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: 유더블유에스
+        sub_title: 클라우드 엔지니어
+        caption: 2019.09 - 현재
+        quote: >
+          AWS, Azure, NCP 클라우드 운영 | EKS 기반 미디어 플랫폼 서비스 운영
+        description: | # this will include new lines to allow paragraphs
+            - On-prem to Public Cloud 마이그레이션
+            - 모니터링 및 알람 시스템 도입 및 고도화 (CloudWatch, Azure Monitoring & Lambda, Slack & promethus, grafana)
+            - EKS 구축 표준 수립 (Terraform, Script, Helm)
+            - 클라우드 비용 최적화 (S3 비용절감, VPC Traffic 개선)
+      - layout: left
+        title: 바오솔루션스
+        sub_title: 네트워크 엔지니어
+        caption: 2018.05 - 2019.06
+        quote: >
+          네트워크(라우터, 스위치), 보안장비(방화벽, VPN) 구축 및 운영 필드 엔지니어
+        description: | # this will include new lines to allow paragraphs
+            - L2, L3 네트워크 장비 운영(Extreme, Cisco)
+            - 방화벽 및 VPN 장비 구축 및 운영 (SRX, Fortinet)
+            - NAC 장비 운영 (Genian)
+
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -71,20 +102,6 @@ content:
           This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
         description: | # this will include new lines to allow paragraphs
           I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: The Boring Company
-        link: boringcompany.com
-        # link_text: boringcompany.com
-        sub_title: Senior Network System Administrator
-        caption: November 2017 - Present
-        quote: >
-          Solving 21st century problems by diging holes and making game changing products like the *not a flamethrower*
-        description: | # this will include new lines to allow paragraphs
-            Every company needs its networks properly administered and The Boring Compay is no exception. Digging holes is hard and I play my part making sure the whole company stays connected. I lead a team of 5 people and enjoy driving the company to try new technologies.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
