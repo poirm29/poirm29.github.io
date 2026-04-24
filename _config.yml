@@ -9,129 +9,146 @@ version: 2
 name: 박근영
 title: 클라우드 엔지니어
 email: poirm29@gmail.com
+phone: "010-7685-3123"
 website: https://techkko.tistory.com/
 
 # Dark Mode (true/false/never)
 darkmode: false
 
 # Social links
-# twitter_username: facespics
-github_username:  poirm29
-# stackoverflow_username: "00000001"
-# dribbble_username: jekyll
-# facebook_username: jekyll
-# flickr_username: jekyll
-# instagram_username: jameswgrant
+github_username: poirm29
 linkedin_username: park-geunyoung
-# xing_username: jekyll
-# pinterest_username: jekyll
-# youtube_username: globalmtb
-# googleplus_username: +jekyll
-# orcid_username: 0000-0000-0000-0000
-
-# Additional icon links
-# additional_links:
-# - title: itsgoingto.be
-#   icon: fas fa-globe
-#   url: https://www.itsgoingto.be
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
 
 # About Section
-# about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  AWS, Azure, NCP 등 다양한 클라우드 플랫폼에서 인프라 운영 및 구축 업무를 수행해온 8년차 클라우드 엔지니어 입니다.
-  11개의 EKS 멀티클러스터 환경으로 구성된 고객포털 서비스의 인프라 운영, EKS 구축 표준 설계, 운영 고도화 및 자동화 등의 업무를 수행 해왔습니다.
-  
-  Cisco, Fortinet, Juniper 등 하드웨어 네트워크/보안 장비를 다루었던 필드엔지니어로 지냈던 경험이 있으며
-  하이브리드 클라우드 환경의 VPN, 전용선, 라우팅, 방화벽 의 운영 및 트러블슈팅에 능숙합니다. 
-  클라우드 Managed Service 뿐만 아니라 전용선 구간 네트워크 장비(Extreme Switch) 나 방화벽(SRX, Vyatta) 장비를 운영하기도 했습니다.
-  
-  최근에는 EKS 환경 운영 및 구축, CI/CD 파이프라인 고도화 등의 프로젝트를 수행했으며 팀의 DevOps 역량 강화를 위한 교육 및 내부 프로젝트를 리딩하고 있습니다.
-  
+about_content: |
+  AWS, Azure, NCP, IBM 등 다양한 CSP의 고객 서비스 구축 및 운영, 마이그레이션 업무를 수행해온 7년차 클라우드 엔지니어입니다.
+  이슈에 대한 근본 원인을 찾고 트러블슈팅 하는 것을 좋아하며, 인프라 레이어의 구축, 운영 및 고도화 경험이 풍부합니다.
+
+  Cisco, Fortinet, Juniper 등 하드웨어 네트워크/보안 장비를 다루었던 필드엔지니어 경험을 바탕으로,
+  하이브리드 클라우드 환경의 VPN, 전용선, 라우팅, 방화벽 운영 및 트러블슈팅에 능숙합니다.
+
+  최근에는 EKS 환경 운영 및 구축, CI/CD 파이프라인 고도화 등의 프로젝트를 수행했으며,
+  팀의 DevOps 역량 강화를 위한 교육 및 내부 프로젝트를 리딩하고 있습니다.
+
+  새로운 기술과 지식에 대한 끊임없는 관심과 함께, 근본적인 CS 지식 기반과 경험을 더해 올바른 판단을 내릴 수 있는 인사이트를 중요하게 여깁니다.
 
 content:
-  - title: Experience # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Experience
+    layout: list
     content:
       - layout: left
-        title: 유더블유에스
+        title: UWS (유더블유에스)
         sub_title: 클라우드 엔지니어
         caption: 2019.09 - 현재
         quote: >
-          AWS, Azure, NCP 클라우드 운영 | EKS 기반 미디어 플랫폼 서비스 운영
-        description: | # this will include new lines to allow paragraphs
-            - On-prem to Public Cloud 마이그레이션
-            - 모니터링 및 알람 시스템 도입 및 고도화 (CloudWatch, Azure Monitoring & Lambda, Slack & promethus, grafana)
-            - EKS 구축 표준 수립 (Terraform, Script, Helm)
-            - 클라우드 비용 최적화 (S3 비용절감, VPC Traffic 개선)
+          AWS, Azure, NCP, IBM 멀티 클라우드 MSP 운영 | EKS 기반 대고객 서비스 운영
+        description: |
+            - Public Cloud MSP 업무 | AWS, Azure, NCP, IBM
+            - Hybrid Cloud 운영 및 구축 | Direct Link, VPN 등
+            - On-prem to Cloud 마이그레이션 업무
+            - Cloud 운영 자동화 | Terraform, Script, Lambda
+            - K8s 서비스 운영 | EKS
       - layout: left
-        title: 바오솔루션스
+        title: BaoSolutions (바오솔루션스)
         sub_title: 네트워크 엔지니어
         caption: 2018.05 - 2019.06
         quote: >
-          네트워크(라우터, 스위치), 보안장비(방화벽, VPN) 구축 및 운영 필드 엔지니어
-        description: | # this will include new lines to allow paragraphs
-            - L2, L3 네트워크 장비 운영(Extreme, Cisco)
-            - 방화벽 및 VPN 장비 구축 및 운영 (SRX, Fortinet)
-            - NAC 장비 운영 (Genian)
+          H/W 네트워크 및 보안 장비 운영 및 구축 필드 엔지니어
+        description: |
+            - H/W 네트워크 및 보안 장비 운영 및 구축 | Juniper, Fortinet, Cisco, Genian, Pentasecurity
+            - 보안장비 마이그레이션 및 통합
 
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title:  sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
-  - title: Education # Title for the section
-    layout: list # Type of content section (list/text)
+  - title: Projects
+    layout: list
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
-        description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
+        title: "[SKT] AWS Cloud 통합 운영체계 설계/구축"
+        caption: 2026.04 - 현재
+        description: |
+            - AWS 통합 운영체계 설계 및 구축 (진행 중)
+      - layout: left
+        title: "[트레블포트코리아] NCP CI/CD 배포 파이프라인 고도화"
+        caption: 2025.12 - 2026.02
+        description: |
+            - 기존 Azure DevOps 배포 파이프라인 분석
+            - 장애 history 분석 및 개발팀 니즈 파악
+            - Azure DevOps – NCP Source Deploy 구성 제안
+            - NCP Source Deploy 데모 시연 및 연동 가이드
+      - layout: left
+        title: "[파라다이스시티] 호텔 서비스 AWS 구축 제안"
+        caption: 2026.01 - 2026.02
+        description: |
+            - RFP에 따른 AWS 인프라 설계
+            - AWS 인프라 파트 제안서 작업
+            - 프로젝트 투입인력 기획
+            - 인프라 비용산정
+      - layout: left
+        title: "[UWS] EKS 환경 구축 표준화"
+        caption: 2025.06 - 2025.10
+        description: |
+            - AWS 인프라 Terraform 작성 및 표준화
+            - EKS 구축 스크립트 작성 및 표준화
+            - Container 및 k8s 기초 교육 진행
+            - VPN 자동화 서비스 구성을 통한 Dev Process 교육 진행
+            - GitHub, Git Actions, ArgoCD 활용 CI/CD 교육 진행
+            - EKS 운영 효율화를 위한 컴포넌트 선정 및 커스텀
+      - layout: left
+        title: "[SK Broadband] Bworld EKS, Istio 운영"
+        caption: 2024.07 - 2026.03
+        description: |
+            - Terraform 및 Bash 스크립트를 통한 Test 환경 관리
+            - 업그레이드에 따른 add-on 영향도 분석 및 버전 선정
+            - 업그레이드 계획 수립 및 테스트
+            - istio operator 지원 종료에 따른 Helm Migration
+            - EKS 비용 최적화
+      - layout: left
+        title: "[SK C&C / AIA Vitality] IBM to AWS 클라우드 마이그레이션"
+        caption: 2022.05 - 2022.11
+        description: |
+            - AWS 네트워크 인프라 프로비저닝 | VPC, TGW, Direct Connect 등
+            - 모니터링 서비스 테스트 및 구축 | AWS CloudWatch, Grafana, Opsgenie, Lambda, AWS SNS
+            - AWS EC2 OS 영역 초기구성 | Linux
+      - layout: left
+        title: "[Huvis] On-premise to AWS 클라우드 마이그레이션"
+        caption: 2022.02 - 2022.05
+        description: |
+            - AWS Landing Zone 설계 및 프로비저닝
+            - Hybrid Cloud 연결 | VPN
+            - IaC를 활용한 AWS 자원 배포 자동화 구성 | Terraform Cloud, Git
+            - AWS FSx 서비스 테스트 및 도입
+      - layout: left
+        title: "[대림비엔코] 운영이관, 마이그레이션 및 설계 제안"
+        caption: 2021.08 - 2022.01
+        description: |
+            - 기존 환경 분석 및 개선안 제시
+            - WAF 및 LB 구성 변경
+            - CDN 신규 구성
+            - 모니터링 구성 | zmon, Grafana
+            - Azure Cloud 인프라 설계 및 제안
 
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
+  - title: Education
+    layout: list
+    content:
+      - layout: left
+        title: 부천대학교
+        caption: 2011.03 - 2016.02
+        sub_title: 학점 3.9 / 4.5
+      - layout: left
+        title: POCU 아카데미
+        caption: 2025.04 - 2025.12
 
-  - title: A Little More About Me
+  - title: Certifications
     layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image  
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+    content: |
+      - Certified Kubernetes Administrator (CKA)
+      - AWS Certified DevOps Engineer - Professional
+      - AWS Certified SysOps Administrator – Associate
+      - AWS Certified Solutions Architect - Associate
+      - CCNA Routing and Switching
 
 # Footer
 footer_show_references: true
-# references_title: References on request (Override references text)
 
 # Build settings
 remote_theme: sproogen/resume-theme
